@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { DropdownMenu, DropdownMenuTrigger, DropdownMenuLabel,DropdownMenuContent, DropdownMenuSeparator, DropdownMenuCheckboxItem  } from "@/components/ui/dropdown-menu";
 import { useTheme } from "next-themes";
-import { SunIcon, MoonIcon, SunMoon, Sun } from 'lucide-react'
+import { SunIcon, MoonIcon, SunMoon } from 'lucide-react'
 
 const ModeToggle = () => {
     const [mounted, setMounted] = useState(false);
