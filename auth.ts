@@ -52,7 +52,7 @@ export const config = {
         async session({session, user, trigger, token}: any) {
             // Set the user id from the token
             if(user) {
-                session.user.id = user.id
+                session.user.id = user.id 
             }
 
             // if there is an update, set the user name
